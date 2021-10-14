@@ -76,3 +76,5 @@ class TestCalc(unittest.TestCase):
 
         reply = tested_app.get("/calc/mul?m=5&n=-3").get_json()
         self.assertEqual(reply["result"], "-15")
+
+# trash
